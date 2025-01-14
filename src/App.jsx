@@ -2,6 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import { Hero } from './components/hero'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <div>
         <h1>kd portfoli</h1>
+        <Hero/>
       </div> 
     </>
   )
