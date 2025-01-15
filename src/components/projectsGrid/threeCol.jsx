@@ -6,18 +6,21 @@ export const ThreeCol = () => {
       id: 1,
       name: "Project One",
       description: "This is the first project.",
+      link: "#",
       tags: ["React", "JavaScript"]
     },
     {
       id: 2,
       name: "Project Two",
       description: "This is the second project.",
+      link: "#",
       tags: ["TypeScript", "Node.js"]
     },
     {
       id: 3,
       name: "Project Three",
       description: "This is the third project.",
+      link: "#",
       tags: ["HTML", "CSS"]
     }
   ];
@@ -33,6 +36,7 @@ export const ThreeCol = () => {
             name={project.name}
             description={project.description}
             tags={project.tags}
+            link={project.link}
           />
         ))}
       </div> 
