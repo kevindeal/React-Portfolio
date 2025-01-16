@@ -4,6 +4,7 @@
 import './App.css'
 import { Hero } from './components/hero'
 import { ThreeCol } from './components/projectsGrid/threeCol'
+import { TabChart } from './components/tabChart/tabChart'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <h1>kd portfoli</h1>
         <Hero/>
         <ThreeCol/>
+        <TabChart/>
       </div> 
     </>
   )
