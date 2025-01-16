@@ -4,7 +4,6 @@ export const TabChart = () => {
   const [activeTab, setActiveTab] = useState("frontend");
 
   const handleTabClick = (tab) => {
-    console.log(`Tab clicked: ${tab}`);
     setActiveTab(tab);
   };
 
