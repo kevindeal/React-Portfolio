@@ -5,6 +5,7 @@ import './App.css'
 import { Hero } from './components/hero'
 import { ThreeCol } from './components/projectsGrid/threeCol'
 import { TabChart } from './components/tabChart/tabChart'
+import { Testimonial } from './components/testimonials/testimonials'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Hero/>
         <ThreeCol/>
         <TabChart/>
+        <Testimonial/>
       </div> 
     </>
   )
